@@ -231,8 +231,9 @@ h2 {
     margin: auto;
     background-color: var(--card-bg);
     border-radius: 16px;
-    overflow: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
 }
 
 .slide {
@@ -241,7 +242,7 @@ h2 {
 
 .slide img {
     width: 100%;
-    vertical-align: middle;
+    display: block;
 }
 
 .prev,
@@ -281,14 +282,15 @@ h2 {
 }
 
 .caption {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #f2f2f2;
     font-size: 15px;
-    padding: 12px 12px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding: 16px;
     text-align: center;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .dots-container {
