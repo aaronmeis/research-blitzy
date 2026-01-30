@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Blitzy | Insight Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-header">BLITZY RESEARCH</div>
+        <ul class="nav-links">
+            <li class="nav-item active" data-target="dashboard">Dashboard</li>
+            <li class="nav-item" data-target="visuals">Visual Assets</li>
+            <li class="nav-item" data-target="research">Research Library</li>
+            <li class="nav-item" data-target="evolution">AI Evolution</li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <!-- Dashboard / Landing -->
+        <section id="dashboard" class="active">
+            <h1>Blitzy AI Insight Hub</h1>
+            <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 1.2rem;">Exploring the Future of
+                System 2 Autonomous Engineering</p>
+
+            <div class="video-container">
+                <!-- Recorded tour as landing visual (animated WebP) -->
+                <img src="summary_video.webp" alt="Site Tour Summary" style="width: 100%; border-radius: 12px;">
+            </div>
+
+            <p class="video-instructions">
+                Navigate using the sidebar to explore visual assets, research documentation, and the full AI evolution
+                slideshow.
+            </p>
+
+            <a href="#" class="details-hint"
+                onclick="document.querySelector('[data-target=\'visuals\']').click(); return false;">
+                Click for more details
+            </a>
+        </section>
+
+        <!-- Visual Assets -->
+        <section id="visuals">
+            <h2>Strategic Visual Assets</h2>
+            <div class="asset-grid">
+                <div class="asset-card">
+                    <img src="unnamed (7).png" alt="Dual-System Cognitive Framework">
+                    <div class="asset-info">
+                        <h4>Dual-System Cognitive Framework</h4>
+                        <p>A visualization comparing fast, intuitive System 1 thinking with the slow, analytical System
+                            2 processes that Blitzy aims to emulate in software engineering.</p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="unnamed (8).png" alt="Cognitive Biases and Decision Logic">
+                    <div class="asset-info">
+                        <h4>Cognitive Biases and Decision Logic</h4>
+                        <p>This asset details common mental shortcuts and cognitive biases, highlighting why rigorous
+                            System 2 validation is essential for maintaining complex enterprise logic.</p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="unnamed (9).png" alt="Blitzy Enterprise Roadmap and Engine">
+                    <div class="asset-info">
+                        <h4>Blitzy Enterprise Roadmap and Engine</h4>
+                        <p>A detailed technical roadmap showcasing the Blitzy Engine’s multi-agent architecture and its
+                            performance benchmarks in real-world enterprise scenarios.</p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="unnamed (10).png" alt="System 2 AI Architectural Revolution">
+                    <div class="asset-info">
+                        <h4>System 2 AI Architectural Revolution</h4>
+                        <p>An overview of Blitzy's architectural shift toward deliberative engineering, illustrating how
+                            System 2 AI transforms standard software development into an autonomous, validated workflow.
+                        </p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="ai_platforms_comparison.png" alt="AI Coding Agent Platform Comparison (2024)">
+                    <div class="asset-info">
+                        <h4>AI Coding Agent Platform Comparison (2024)</h4>
+                        <p>A comprehensive comparison table of leading AI coding platforms, detailing their deployment
+                            options, enterprise capabilities, and specialized strengths.</p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="chart.png" alt="AI Coding Agent Productivity Gains">
+                    <div class="asset-info">
+                        <h4>AI Coding Agent Productivity Gains</h4>
+                        <p>A visualization of the significant productivity enhancements achieved through AI agents,
+                            highlighting up to a 300% boost in learning and development efficiency.</p>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <img src="chart_1.png" alt="AI Agent Market Positioning: Autonomy vs. Enterprise Readiness">
+                    <div class="asset-info">
+                        <h4>AI Agent Market Positioning: Autonomy vs. Enterprise Readiness</h4>
+                        <p>A quadrant analysis mapping the competitive landscape of AI coding agents based on their
+                            operational autonomy and readiness for enterprise-scale integration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Library -->
+        <section id="research">
+            <h2>Research Library</h2>
+            <ul class="file-list">
+                <li class="file-item">
+                    <a href="blitzy_ai_company_report.pdf" target="_blank">Blitzy AI Strategic Analysis</a>
+                    <span class="file-type">PDF</span>
+                </li>
+                <li class="file-item">
+                    <a href="System_2_Autonomous_Engineering.pdf" target="_blank">System 2: The Future of Autonomous
+                        Engineering</a>
+                    <span class="file-type">PDF</span>
+                </li>
+                <li class="file-item">
+                    <a href="Blitzy-AI-Revolutionizing-Enterprise-Software-Development.pdf" target="_blank">Enterprise
+                        Revolution Strategy Document</a>
+                    <span class="file-type">PDF</span>
+                </li>
+                <li class="file-item">
+                    <a href="as an enterprise architect and future strategist,.pdf" target="_blank">Architect &
+                        Strategist Strategic Vision</a>
+                    <span class="file-type">PDF</span>
+                </li>
+                <li class="file-item">
+                    <a href="Competitive analysis on Devika, OpenDevin, Factory.pdf" target="_blank">Competitive
+                        Analysis: Devika, OpenDevin, Factory</a>
+                    <span class="file-type">PDF</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Slideshow Section -->
+        <section id="evolution">
+            <h2>AI Evolution Slideshow</h2>
+            <div class="slideshow-container">
+                <!-- Slides will be listed here. Given there are 15, I will list them all. -->
+                <div class="slide">
+                    <div class="slide-number">1 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/1_Blitzy-AI-Revolutionizing-Enterprise-Software-Development.png">
+                    <div class="caption">Revolutionizing Enterprise Software Development</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">2 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/2_Introduction.png">
+                    <div class="caption">Introduction</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">3 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/3_Core-Philosophy.png">
+                    <div class="caption">Core Philosophy</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">4 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/4_The-Problem-with-System-1-AI.png">
+                    <div class="caption">The Problem with System 1 AI</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">5 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/5_Inference-Time-Compute-The-Key-Innovation.png">
+                    <div class="caption">Inference-Time Compute</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">6 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/6_Technology.png">
+                    <div class="caption">Technology Stack</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">7 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/7_The-Agentic-Development-Workflow.png">
+                    <div class="caption">Agentic Development Workflow</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">8 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/8_Validation.png">
+                    <div class="caption">Validation & Reliability</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">9 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/9_Enterprise-Scale-Proof-Points.png">
+                    <div class="caption">Enterprise Scale Proof Points</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">10 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/10_Product.png">
+                    <div class="caption">Product Highlights</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">11 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/11_The-8020-Human-in-the-Loop-Model.png">
+                    <div class="caption">The 80/20 Human-in-the-Loop Model</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">12 / 15</div>
+                    <img
+                        src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/12_Enterprise-Grade-Security-and-Technical-Specs.png">
+                    <div class="caption">Security & Technical Specs</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">13 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/13_Phased-Pricing-Model.png">
+                    <div class="caption">Phased Pricing Model</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">14 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/14_Market-Strategy.png">
+                    <div class="caption">Market Strategy</div>
+                </div>
+                <div class="slide">
+                    <div class="slide-number">15 / 15</div>
+                    <img src="Blitzy-AI-Revolutionizing-Enterprise-Software-Development/15_Conclusion.png">
+                    <div class="caption">Conclusion</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span>
+                <span class="dot" onclick="currentSlide(14)"></span>
+                <span class="dot" onclick="currentSlide(15)"></span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxOverlay" class="lightbox-overlay">
+        <span id="closeLightbox" class="close-lightbox">&times;</span>
+        <div class="lightbox-container">
+            <div class="lightbox-img-wrapper">
+                <img id="lightboxImg" src="" alt="">
+            </div>
+            <div class="lightbox-content">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
